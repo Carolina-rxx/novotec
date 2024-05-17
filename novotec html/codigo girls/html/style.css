@@ -1,0 +1,40 @@
+*{ margin: 0; padding: 0;}
+
+body{
+    background-color: white;
+}
+
+.menu{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(238, 25, 149);
+}
+
+.sub-menu{
+    display: flex;
+}
+
+.list{
+    position: relative;
+    margin: 1rem;
+    padding: 1rem;
+    list-style: none;
+    text-decoration-line: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    position: relative;
+    margin: 5px 5px;
+    padding: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: baseline;
+    align-content: flex-end;
+    gap: 20px;
+
+}
