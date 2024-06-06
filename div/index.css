@@ -25,7 +25,7 @@ header{
 
 #supertec{
     margin-top: 1.5rem;
-    margin-left: -5rem;
+    margin-left: -6rem;
     font-family: Montserrat Subrayada;
     font-size: 30px;
 
@@ -45,15 +45,13 @@ li{
     color: white;
     margin-left: 2rem;
     font-family: Montserrat;
-    font-size: 20px;
-}
-
-li{
+    font-size: 15px;
     opacity: 100%;
 }
 
 li:hover{
     opacity: 50%;
+    font-size: 14px;
 }
 
 #carrinho{
@@ -71,12 +69,15 @@ li:hover{
 
 #carrinho:hover{
     opacity: 50%;
+    width: 201px;
+    height: 51px;
+
 }
 
 
 #barra_pesquisa{
     margin-top: 2rem;
-    margin-left: 2rem; 
+    margin-left: 1rem; 
     margin-bottom: 2rem;
  
 }
@@ -121,11 +122,13 @@ li:hover{
 
 #img_intro{
     margin-top: 1.5rem;
-    margin-left: 7rem;
+    margin-left: 5rem;
+    
 }
 
 #banner1{
     margin-top: 2rem;
+    margin-left: -2rem;
 }
 
 #img_banner1{
@@ -135,7 +138,7 @@ li:hover{
 #parte2{
     display: flex;
     margin-top: 1rem;
-    
+    height: 10rem;
 }
 
 #banner2{
@@ -145,14 +148,26 @@ li:hover{
     border-radius: 5px;
 }
 
-#banner3{
-    margin-left: -3rem;
+#banner_reserva{
+    height: 10rem;
+    width: 25rem;
     border-radius: 5px;
+    margin-right: 5rem;
+
+}
+
+#banner3{
+    margin-left: -5rem;
+    border-radius: 10px;
+    margin-right: 5rem;
 }
 
 #banner4{
-    height: 249px;
-    border-radius: 5px;
+    height: 160px;
+    border-radius: 10px;
+    
+   
+    
 }
 
 #aviso{
@@ -171,14 +186,132 @@ li:hover{
 
 }
 
+aside{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.destaque{
+    display: flex;   
+}
+
+
+
+.img_destaque{
+    background: rgb(58, 57, 57);
+    border-radius: 4px;
+    border-top-right-radius: 0px;
+    width: 5rem;
+}
+
+.leg1{
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-left: 5.5rem;
+}
+
+.leg2{
+    align-items: center;
+    margin-left: 3.5rem;
+}
+
+.leg3{
+    margin-left: 4rem;
+}
+
+#gamer{
+    display: flex;
+}
+
+.game_legenda{
+    font-family: Montserrat;
+    background: black;
+    width: 16rem;
+    border-radius: 5px;
+    border-top-left-radius: 0px;    
+}
+
+#work{
+    margin-left: 2rem;
+    display: flex;
+}
+
+#img_work{
+    width: 100px;
+    height: 100%;
+    background: #345aad;
+    border-radius: 5px;
+    border-top-right-radius: 0px;
+}
+
+#work_legenda{
+    font-family: Montserrat;
+    background: #102e70;
+    width: 16rem;
+    border-radius: 5px;
+    border-top-left-radius: 0px;    
+}
+
+#leg1-w{
+    align-items: center;
+    margin-top: 0.8rem;
+    margin-left: 4rem;
+}
+
+#leg2-w{
+    align-items: center;
+    margin-left: 3rem;
+}
+
+#leg3-w{
+    margin-left: 3.5rem;
+}
+
+#destaque_home{
+    display: flex;
+    background: #33751e;
+
+}
+
+#s_png{
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-right: -1rem;
+    background: #33751e;
+}
+
+#s_legenda{
+    margin-left: 1rem;
+    background: #1d4211;
+}
+
+.imagens{
+    width: 16rem;
+    border-radius: 5px;
+}
+
 #produtos{
     display: flex;
     margin-top: 2rem;
+    margin-left: 1rem;
+}
 
+#oferta{
+    margin-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+
+#fogo_leg{
+    font-family: Montserrat;
 }
 
 .medida_img{
     margin-right: 0.5rem;
+    width: 30rem;
 }
 
 .frete{
@@ -186,9 +319,9 @@ li:hover{
     border-radius: 3px;
     text-align: start;
     width: 135px;
-    height: 15px;
+    height: 16px;
     font-size: 10px;
-    font-weight: 600px;
+    font-weight: 700px;
     margin-top: 0.3rem;
     margin-left: 1rem;
     padding: auto;
@@ -203,9 +336,9 @@ li:hover{
     font-family: Montserrat;
     text-align: start;
     width: 135px;
-    height: 18px;
+    height: 19px;
     font-size: 10px;
-    font-weight: 600px;
+    font-weight: 700px;
     margin-top: 0.3rem;
     margin-left: 1rem;
     padding: auto;
@@ -216,9 +349,17 @@ li:hover{
 .legenda{
     margin-top: 0.5rem;
     font-family: Montserrat;
-    font-weight: 800px;
-    color: white
+    font-weight: 700px;
+    font-size: 13px;
     
+}
+
+.legenda{
+    opacity: 100%;
+}
+
+.legenda:hover{
+    opacity: 50%;
 }
 
 footer{
