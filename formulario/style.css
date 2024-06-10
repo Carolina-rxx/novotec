@@ -1,0 +1,119 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: Poppins;}
+
+
+body{
+    background: #fce4be;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    height: 100vh;
+
+}
+
+header{
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 25px;
+}
+
+h1{
+    font-family: Amatic SC;
+}
+
+h2{
+    font-family: Amatic SC;
+}
+
+img{
+    margin-left: 75rem;
+    width: 10rem;
+}
+
+#img2{
+    margin-left: -52rem;
+}
+
+fieldset{
+    background: #f3d8adc0;
+    border: 0;
+    border-radius: 5px;
+    width: 40rem;
+    margin-top: -30rem;
+    margin-left: 30rem;
+}
+
+form{
+    margin-top: 4rem;
+}
+
+div{
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    align-items: center;
+}
+
+label{
+    text-align: center;
+    margin-left: 2rem;
+}
+
+input{
+    width: 30rem;
+    height: 3rem;
+    border: 1px;
+    border-radius: 5px;
+}
+
+select{
+    border: 1px;
+    border-radius: 5px;
+    height: 2rem;
+}
+
+button{
+    width: 20rem;
+    height: 4rem;
+    background: #bf9f88 ;
+    border: 2px;
+    border-radius: 5px;
+    margin-left: 40rem;
+    margin-top: 1rem;
+    font-family: Amatic SC;
+    font-size: 30px;
+    font-weight:bold;
+    border-style: dotted;
+}
+
+button:hover{
+    width: 20rem;
+    height: 5rem;
+    background: #bf9f88 ;
+    border: 2px;
+    border-radius: 5px;
+    margin-left: 40rem;
+    margin-top: 1rem;
+    font-family: Amatic SC;
+    font-size: 30px;
+    font-weight:bold;
+    border-style: dotted;
+}
+
+#data{
+    margin-left: 4rem;
+}
+
+#cidade{
+    height: 3rem;
+    width: 29rem;
+}
+
+#sx{
+    height: 3rem;
+    margin-left: 1rem;
+    width: 29rem;
+}
+
+#civil{
+    height: 3rem;
+    width: 26rem;
+}
