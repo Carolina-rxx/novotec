@@ -5,12 +5,9 @@
 --orange-wheel: #f77f00ff;
 --xanthous: #fcbf49ff;
 
-
 body{
     height: 100vh;
     width: 100%;
-    
-
 }
 
 header{
@@ -55,52 +52,18 @@ li{
     font-family: Lora;
 }
 
-#img_intro{
-    margin-left: 5rem;
-}
-
-#parte_colorida{
-    display: flex;
-    background: #f77f00ff;
-    height: 800px;
-    
-}
-
-#mulher_cozinhando{
-    margin-top: 3rem;
-    width: 90%;
-}
-
-
 #intro{
-    text-align: center;
-    margin-top: 15rem;
-    margin-right: 5rem;
-    
+    color: white;
+    margin-top: -5rem;
+    margin-left: 45rem;
 }
 
-#intro2{
-    margin-top: 4rem;
-    width: 900px;
+#img_intro{
+    margin-top: -2px;
+    margin-left: 15rem;
 }
 
-#f1{
-    margin-top: -3rem;
-    margin-right: -2rem;
-    margin-bottom: 1rem;
-    font-family: Pacifico;
-    width: 700px;
-    font-size: 60px;
-}
-
-#f2{
-    margin-left: -1rem;
-    font-family: Merienda;
-    margin-bottom: 3rem;
-}
-
-#f3{
-    text-align: center;
-    font-family: Merienda;
-
+#banner{
+    width: 100%;
+    width: 1400px;
 }
