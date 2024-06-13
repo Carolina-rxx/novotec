@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="icons/icons8-cozinheiro-16.png" type="image/x-icon">
+    <link rel="shortcut icon" href="icons/gastronomia (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Serif+Text:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap" rel="stylesheet">
+    
     <title>Gostosuras</title>
 </head>
 <body> 
@@ -42,37 +45,38 @@
         </div>
         <hr>
         
-        <div id="cards">
-            <div id="salada">
-                <div id="img_salada">
-                    <img src="imagens/salada.png" alt="salada" type="pngz">
-                </div>
+        <div class="cards">
+            <div class="container">
+            <div class="div-salada">
+                    <img src="imagens/salada.png" alt="salada" type="png" id="img_salada"> 
+                    
                 <div id="leg_salada">
                     <p>Saladas</p>
-                </div>
+                 </div>
+            </div> 
             </div>
 
-            <div id="bolos">
-                <div id="img_bolo">
-                    <img src="imagens/panna-cotta.png" alt="bolinho" type="png">
+            <div class="container">
+                <div class="div-bolo">
+                    <img src="imagens/panna-cotta.png" alt="bolinho" type="png" class="img_medida">
                 </div>
                 <div id="leg_bolo">
                     <p>Bolos</p>
                 </div>
             </div>
 
-            <div id="bebidas">
-                <div id="img_bebiba">
-                    <img src="imagens/bebida-de-coquetel.png" alt="bebida">
+            <div class="container">
+                <div class="div-bebida">
+                    <img src="imagens/bebida-de-coquetel.png" alt="bebida" class="img_medida">
                 </div>
                 <div id="leg_bebida">
                     <p>Bebidas</p>
                 </div>
             </div>
 
-            <div id="fit">
-                <div id="img_fit">
-                    <img src="imagens/ginastica.png" alt="fit">
+            <div class="container">
+                <div class="div-fit">
+                    <img src="imagens/ginastica.png" alt="fit" class="img_medida">
                 </div>
                 <div id="leg_fit">
                     <p>Fitness</p>
@@ -82,29 +86,36 @@
         </div>
     </main>
 
-    <hr>
-
     <footer>
-        <div id="intro_footer">
-            <hr id="hr_footer">
-            <div id="img_footer">
-                <img src="imagens/gastronomia.png" alt="gastronomia">
-            </div>
-            <hr id="hr_footer2">
+        <div id="hrs">
+            <hr id="hr-footer1">
+            <hr id="hr-footer2">
         </div>
 
-        <div id="contato">
+        <div id="intro_footer">
+                <img src="imagens/gastronomia.png" alt="gastronomia" id="gastronomia-footer">
+        </div>
+
+        <div id="entre-em-contato">
+            <p id="frase-footer">Entre em contato com a desenvolvedora!</p>
+        </div>
+
+
+        <div id="decoration">
+            <div id="contato">
             <div id="whats">
-                <a href=""><img src="imagens/telefone.png" alt="telefone"></a>
+                <a href=""><img src="imagens/telefone.png" alt="telefone" class="medida-footer"></a>
             </div>
 
             <div id="insta">
-                <a href=""><img src="imagens/instagram.png" alt="instagram"></a>
+                <a href=""><img src="imagens/instagram.png" alt="instagram" class="medida-footer"></a>
             </div>
            
             <div id="github">
-                <a href=""><img src="imagens/github.png" alt="github"></a>
+                <a href=""><img src="imagens/github.png" alt="github" class="medida-footer"></a>
             </div>
+        </div>
+        
         </div>
     </footer>
 

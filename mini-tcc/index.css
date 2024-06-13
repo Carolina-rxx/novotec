@@ -8,9 +8,8 @@
 
 body{
     height: 100vh;
-    width: 100%;
-    
-
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header{
@@ -102,5 +101,164 @@ li{
 #f3{
     text-align: center;
     font-family: Merienda;
+}
 
+.cards{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.img_medida{
+    width: 90px;
+    height: 80px;
+}
+
+.div-salada{
+    background: rgba(106, 153, 78, 1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    
+}
+
+#img_salada{
+    height: 80px;
+}
+
+.imagem{
+    border-radius: 8px;
+}
+
+.container{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+
+#leg_salada{
+     background: rgba(56, 102, 65, 1);
+     width: 200px;
+     height: 84px;
+     border-radius: 8px;
+     border-top-left-radius: 0px;
+     border-bottom-left-radius: 0px;
+     text-align: center;
+
+} 
+
+.div-bolo{
+    background: rgba(255, 155, 133, 1);
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#leg_bolo{
+    background: rgba(188, 71, 73, 1);
+    width: 250px;
+    height: 84px;
+    border-radius: 8px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+p{
+    margin-top: 30px;
+    font-family: Merienda;
+    font-size: 20px;
+}
+
+.div-bebida{
+    background: rgba(255, 136, 0, 1);
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#leg_bebida{
+    background: rgba(255, 170, 0, 1);
+    width: 200px;
+    height: 84px;
+    border-radius: 8px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.div-fit{
+    background: rgba(114, 239, 221, 1);
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#leg_fit{
+    background: rgba(100, 223, 223, 1);
+    width: 500px;
+    height: 84px;
+    margin-left: -0.5px;
+    border-radius: 8px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+#hrs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#hr-footer1{
+    width: 700px;
+}
+
+#hr-footer2{
+    width: 700px;
+}
+
+#intro_footer{
+    margin-left: 900px;
+}
+
+#gastronomia-footer{
+    width: 100px;
+}
+
+footer{
+    height: 50vh;
+}
+
+
+#entre-em-contato{
+    background: #003049ff;
+    margin-top: 20px;
+    
+}
+
+#frase{
+    margin-top: 20px;
+}
+
+#frase-footer{
+    font-family: Lora;
+    color: white;
+    text-align: center;
+}
+
+#decoration{
+    height: 35vh;
+    background: rgba(0, 48, 73, 0.90);
+}
+
+.medida-footer{ 
+    width: 40px;
 }
