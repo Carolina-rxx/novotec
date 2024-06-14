@@ -5,11 +5,9 @@
 --orange-wheel: #f77f00ff;
 --xanthous: #fcbf49ff;
 
-
 body{
     height: 100vh;
-    margin-left: 20px;
-    margin-right: 20px;
+    width: 100%;
 }
 
 header{
