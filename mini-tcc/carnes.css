@@ -21,6 +21,10 @@ header{
     color: white;
 }
 
+#chapeu-logo{
+    width: 15%;
+}
+
 #gostosuras{
     font-family: Merienda;
     font-size: 30px;
@@ -46,4 +50,12 @@ li{
     color: white;
     list-style: none;
     font-family: Lora;
+}
+
+#intro_img{
+    margin-left: 30rem;
+}
+
+#carne-intro{
+
 }
