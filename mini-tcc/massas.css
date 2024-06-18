@@ -7,15 +7,23 @@
 
 body{
     height: 100vh;
-    width: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 header{
     background: #003049ff;
     display: flex;
-    width: 100%;
+    
     height: 4rem;
     
+}
+
+#img-logo{
+    width: 20px;
+    transform: rotate(343deg);
+    margin-top: -1.5px;
+    margin-left: 8px;
 }
 
 #logo{
@@ -28,7 +36,9 @@ header{
 #gostosuras{
     font-family: Merienda;
     font-size: 30px;
+    color: white;
 }
+
 
 nav{
     display: flex;
@@ -52,18 +62,44 @@ li{
     font-family: Lora;
 }
 
-#intro{
-    color: white;
-    margin-top: -5rem;
-    margin-left: 45rem;
-}
-
-#img_intro{
-    margin-top: -2px;
-    margin-left: 15rem;
-}
-
 #banner{
     width: 100%;
-    width: 1400px;
+    height: 53.4rem;
+}
+
+#intro{
+    color: white;
+    margin-top: -35rem;
+    text-align: center;
+    font-family: EB Garamond ;
+    font-size: 50px;
+}
+
+.container1{
+    margin-top: 30rem;
+    display: flex;
+}
+
+.container2{
+    display: flex;   
+}
+
+.img-medida-container1{
+    width: 90%;
+    height: 20rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.card_receitas{
+    padding: 1rem;
+    border-radius: 8px;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 24rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    font-family: Lora;
+    font-weight: bold;
 }
