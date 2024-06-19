@@ -19,14 +19,12 @@ header{
     height: 4rem;
     
 }
-
 #img-logo{
     width: 20px;
-    transform: rotate(343deg);
+    transform: rotate(335deg);
     margin-top: -1.5px;
-    margin-left: 8px;
+    margin-left: 9px;
 }
-
 #logo{
     display: flex;
     margin-top: 0.5rem;

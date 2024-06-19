@@ -1,4 +1,10 @@
 *{margin: 0; padding: 0; box-sizing: border-box;}
+/* CSS HEX */
+--prussian-blue: #003049ff;
+--fire-engine-red: #d62828ff;
+--orange-wheel: #f77f00ff;
+--xanthous: #fcbf49ff;
+
 
 body{
     height: 100vh;
@@ -9,9 +15,14 @@ body{
 header{
     background: #003049ff;
     display: flex;
-    width: 100%;
     height: 4rem;
-    
+}
+
+#img-logo{
+    width: 20px;
+    transform: rotate(335deg);
+    margin-top: -1.5px;
+    margin-left: 9px;
 }
 
 #logo{
@@ -21,20 +32,16 @@ header{
     color: white;
 }
 
-#chapeu-logo{
-    width: 10%;
-}
-
 #gostosuras{
     font-family: Merienda;
     font-size: 30px;
+    color: white;
 }
 
 nav{
     display: flex;
     margin-left: 900px;
     margin-top: 1.5rem;
-    
 }
 
 a{
@@ -50,4 +57,67 @@ li{
     color: white;
     list-style: none;
     font-family: Lora;
+    align-items: baseline;
+}
+
+li:hover{
+    margin-left: 2rem;
+    color: white;
+    list-style: none;
+    font-family: Lora;
+    align-items: baseline;
+    text-shadow: 0px 0px 20px rgb(255, 153, 0);
+}
+
+#doce-intro{
+    width: 100%;
+    height: 53.4rem;
+}
+
+#intro{
+    text-align: center;
+    margin-top: -35rem;
+    color: white;
+    font-family: EB Garamond ;
+    font-size: 50px;
+}
+
+.container1{
+    margin-top: 30rem;
+    display: flex;
+}
+
+.container2{
+    display: flex;   
+}
+
+.img-medida-container1-mousse{
+    width: 89%;
+    height: 20rem;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.img-medida-container1{
+    width: 90%;
+    height: 50%;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.card_receitas{
+    padding: 1rem;
+    border-radius: 8px;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 24rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    font-family: Lora;
+    font-weight: bold;
+}
+
+.leg-card{
+    color:  black;
 }
