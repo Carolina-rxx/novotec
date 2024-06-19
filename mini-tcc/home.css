@@ -157,6 +157,8 @@ li:hover{
     width: 300px;
     align-items: center;
     margin-left: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 8px;
     
 }
 
@@ -168,8 +170,11 @@ li:hover{
      border-top-left-radius: 0px;
      border-bottom-left-radius: 0px;
      text-align: center;
-
 } 
+
+.cor-leg{
+    color: black;
+}
 
 .div-bolo{
     background: rgba(255, 155, 133, 1);
@@ -252,14 +257,13 @@ p{
 }
 
 footer{
-    height: 50vh;
+    height: 20vh;
 }
 
 
 #entre-em-contato{
     background: #003049ff;
     margin-top: 20px;
-    
 }
 
 #frase{
@@ -273,7 +277,7 @@ footer{
 }
 
 #decoration{
-    height: 35vh;
+    height: 10vh;
     background: rgba(0, 48, 73, 0.90);
 }
 
@@ -296,5 +300,5 @@ footer{
 
 #conteudo-footer{
     display: flex;
-    margin-top: 100px;
+    margin-top: 30px;
 }

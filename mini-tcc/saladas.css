@@ -1,0 +1,140 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+/* CSS HEX */
+--prussian-blue: #003049ff;
+--fire-engine-red: #d62828ff;
+--orange-wheel: #f77f00ff;
+--xanthous: #fcbf49ff;
+
+
+body{
+    height: 100vh;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header{
+    background: #003049ff;
+    display: flex;
+    height: 4rem;
+}
+
+#img-logo{
+    width: 20px;
+    transform: rotate(343deg);
+    margin-top: -1.5px;
+    margin-left: 8px;
+}
+
+#logo{
+    display: flex;
+    margin-top: 0.5rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+#gostosuras{
+    font-family: Merienda;
+    font-size: 30px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    margin-left: 900px;
+    margin-top: 1.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin-left: 2rem;
+    color: white;
+    list-style: none;
+    font-family: Lora;
+    align-items: baseline;
+}
+
+li:hover{
+    margin-left: 2rem;
+    color: white;
+    list-style: none;
+    font-family: Lora;
+    align-items: baseline;
+    text-shadow: 0px 0px 20px rgb(255, 153, 0);
+}
+
+#carne-intro{
+    width: 100%;
+    height: 53.4rem;
+}
+
+#intro{
+    text-align: center;
+    margin-top: -35rem;
+    color: white;
+    font-family: EB Garamond ;
+    font-size: 50px;
+}
+
+.container1{
+    margin-top: 30rem;
+    display: flex;
+}
+
+.container2{
+    display: flex;   
+}
+
+.img-medida-container1-carne{
+    width: 89%;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.img-medida-container1{
+    width: 90%;
+    height: 50%;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.img-medida-container1-img3{
+    width: 30rem;
+    height: 20rem;
+    border-radius: 10px;
+}
+
+.card_receitas{
+    padding: 1rem;
+    border-radius: 8px;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+    width: 35rem;
+    height: 24rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    font-family: Lora;
+    font-weight: bold;
+}
+
+.leg_card{
+    color:  black;
+}
+
+.img-medida-container2-img1{
+    width: 90%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.img-medida-container2{
+    border-radius: 10px;
+    width: 90%;
+    height: 20rem;
+}   
