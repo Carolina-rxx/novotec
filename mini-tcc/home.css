@@ -234,6 +234,68 @@ p{
     border-bottom-left-radius: 0px;
 }
 
+.texto-animado{
+    font-size: 40px;
+    font-family: lora;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.texto-animado span{
+    position: relative;
+}
+
+.texto-animado span::before{
+    content: "";
+    color: rgba(247, 127, 0, 1);
+    animation: palavras 20s infinite;
+}
+
+.texto-animado span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid rgba(247, 127, 0, 1);
+    right: -10px;
+    animation: cursor .8s infinite, digita 20s steps(15) infinite;
+    width: calc(100% + 18px);
+    background-color: white;
+}
+
+@keyframes digita{
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 18px);
+    }
+}
+
+@keyframes cursor{
+    0%{
+        border-left: 2px solid white;
+    }
+}
+
+@keyframes palavras{
+    0%,20%{
+        content: "para adoçar sua vida!";
+    }
+    21%,40%{
+        content: "que enchem de alegria!";
+    }
+    41%,60%{content: "que surpreendem a cada mordida!";
+    }
+    61%,80%{
+        content:" irresistíveis para todos saborearem!";
+    }
+    81%,100%{
+        content: "para compartilhar e saborear!";
+    }
+}
+
+
 #hrs{
     display: flex;
     justify-content: space-between;
