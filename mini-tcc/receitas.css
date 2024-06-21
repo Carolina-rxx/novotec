@@ -93,7 +93,7 @@ main{
 }
 
 .info{
-    margin-top: 13.5rem;
+    margin-top: 14.5rem;
     display: flex;
     justify-content: space-around;
     background-color: rgb(3, 63, 95);
@@ -113,7 +113,7 @@ main{
 }
 
 .nutricional{
-    margin-top: -.7rem;
+    margin-top: -1rem;
     background-color:  rgba(247, 128, 0, 0.815);
     border-radius: 8px;
     border-bottom-left-radius: 0;
@@ -126,8 +126,12 @@ main{
     display: flex;
     text-align: center;
     font-weight: bold;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-left: .5rem;
+}
+
+.titulo-nutri{
+    margin-top: 0.4rem;
 }
 
 .container{
@@ -152,7 +156,7 @@ main{
 .num{
     margin-top: 1rem;
     width: 12rem;
-
+    font-size: 20px;
 }
 
 
@@ -172,4 +176,95 @@ hr{
     margin-bottom: 10px;
     font-family: lora;
     font-size: 18px;
+}
+
+#hrs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#hr-footer1{
+    width: 700px;
+}
+
+#hr-footer2{
+    width: 700px;
+}
+
+#intro_footer{
+    margin-left: 900px;
+}
+
+#gastronomia-footer{
+    width: 100px;
+}
+
+footer{
+    height: 30vh;
+}
+
+
+#img-logo-footer{
+    width: 20px;
+    transform: rotate(338deg);
+    margin-top: -1.5px;
+    margin-left: 36px;
+}
+#logo-footer{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+#gostosuras-footer{
+    font-family: Merienda;
+    font-size: 30px;
+    color: white;
+}
+
+#entre-em-contato{
+    background: #003049ff;
+    margin-top: 20px;
+}
+
+#frase{
+    margin-top: 20px;
+}
+
+#frase-footer{
+    font-family: Lora;
+    color: white;
+    text-align: center;
+}
+
+#decoration{
+    display: flex;
+    margin-top: -1rem;
+    height: 20vh;
+    background: rgba(0, 48, 73, 0.90);
+}
+
+.medida-footer{ 
+    width: 40px;
+}
+
+#contato{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 1.5rem;
+}
+
+#whats{
+    margin-right: 20px;
+}
+
+#insta{
+    margin-right: 20px;
+}
+
+#conteudo-footer{
+    display: flex;
+    margin-top: 30px;
 }

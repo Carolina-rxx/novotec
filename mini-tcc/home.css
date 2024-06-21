@@ -234,6 +234,103 @@ p{
     border-bottom-left-radius: 0px;
 }
 
+.cards-flip{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+}
+
+.container-flip{
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background-color: floralwhite;
+    border-radius: 20px;
+}
+
+.container-flip:hover .flip{
+    transform: rotateY(180deg);
+}
+
+.flip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: .5s;
+}
+
+.frente{
+    background-image: url(imagens/flip/high-angle-assortment-with-delicious-brazilian-food.jpg);
+    background-size: cover;
+}
+
+.tras{
+    background-color:  #fcbf49ff;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leg-flip{
+    font-family: lora;
+    font-size: 30px;
+}
+
+
+
+.frente2{
+    background-image: url(imagens/flip/close-up-delicious-asian-food.jpg);
+    background-size: cover;
+}
+
+.tras2{
+    background-color:  #fcbf49ff;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.frente3{
+    background-image: url(imagens/flip/delicious-tacos-table.jpg);
+    background-size: cover;
+}
+
+.tras3{
+    background-color:  #fcbf49ff;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.frente4{
+    background-image: url(imagens/flip/sushi-rolls-with-soybean-sauce.jpg);
+    background-size: cover;
+}
+
+.tras4{
+    background-color:  #fcbf49ff;
+    transform: rotateY(180deg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+.frente, .tras, .frente2, .tras2, .frente3, .tras3, .frente4, .tras4{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    backface-visibility: hidden;
+}
+
 .texto-animado{
     font-size: 40px;
     font-family: lora;
@@ -319,9 +416,28 @@ p{
 }
 
 footer{
-    height: 20vh;
+    height: 30vh;
 }
 
+
+#img-logo-footer{
+    width: 20px;
+    transform: rotate(338deg);
+    margin-top: -1.5px;
+    margin-left: 36px;
+}
+#logo-footer{
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+#gostosuras-footer{
+    font-family: Merienda;
+    font-size: 30px;
+    color: white;
+}
 
 #entre-em-contato{
     background: #003049ff;
@@ -339,7 +455,9 @@ footer{
 }
 
 #decoration{
-    height: 10vh;
+    display: flex;
+    margin-top: -1rem;
+    height: 20vh;
     background: rgba(0, 48, 73, 0.90);
 }
 
@@ -350,6 +468,7 @@ footer{
 #contato{
     display: flex;
     margin-left: 200px;
+    margin-top: 1.5rem;
 }
 
 #whats{
