@@ -159,8 +159,7 @@ li:hover{
     margin-left: 50px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     border-radius: 8px;
-    
-}
+   }
 
 #leg_salada{
      background: rgba(56, 102, 65, 1);
@@ -278,8 +277,6 @@ p{
     font-family: lora;
     font-size: 30px;
 }
-
-
 
 .frente2{
     background-image: url(imagens/flip/close-up-delicious-asian-food.jpg);
