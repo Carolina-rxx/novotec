@@ -81,14 +81,23 @@ li:hover{
     font-family: EB Garamond ;
     font-size: 50px;
 }
-
 .container1{
     margin-top: 30rem;
     display: flex;
+    transition: transform 200ms linear;
+}
+
+.container1 :hover{
+    transform: scale(1.02);
 }
 
 .container2{
-    display: flex;   
+    display: flex; 
+    transition: transform 200ms linear;  
+}
+
+.container2 :hover{
+    transform: scale(1.02);
 }
 
 .img-medida-container1-carne{
