@@ -1,0 +1,29 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background:rgb(0, 140, 255);
+}
+
+header{
+    height: 5rem;
+    text-align: center;
+    margin-top: 15rem;
+    color: white;
+    font-family: Montserrat;
+}
+
+.container{
+    height: 7rem;
+    width: 40rem;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin-left: 40rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.conteudo{
+    font-family: Montserrat;
+    padding: 2rem;
+}
+
+
