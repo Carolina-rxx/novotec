@@ -1,7 +1,7 @@
 *{margin: 0; padding: 0; box-sizing: border-box;} 
 
 body{
-    background:#f7e4be;
+    background:linear-gradient(45deg, #03045eff, #caf0f8ff, #0077b6ff, #0096c7ff, #00b4d8ff, #48cae4ff, #90e0efff, #ade8f4ff, #023e8aff);
     height: 100vh;
 }
 
@@ -11,6 +11,7 @@ header{
     margin-top: 5rem;
     font-family: indie flower;
     height: 8rem;
+    color: #fffff2;
 }
  
 p{
@@ -21,12 +22,14 @@ p{
 }
 
 .container{
-    background-color: #fffff2;
+    background-color:rgba(250, 249, 249, 1);
     width: 70rem;
     height: 40rem;
     margin-left: 20%;
     border-radius: 10px;
-    border: 1px dashed;
+    box-shadow:rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border: none;
+    
 }
 
 img{
