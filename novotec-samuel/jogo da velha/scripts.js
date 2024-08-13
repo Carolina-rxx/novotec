@@ -1,17 +1,31 @@
 const cellELements = document.querySelectorAll("[data-cell]");
 
-let isCircleTurn;
+let isCircleTurn = false;
 
-for (const cell of cellELements) {
-    cell.addEventListener("click", handleClick, {once: true})
+const placeMark = (cell, classToAdd) => {
+      cell.classList.add(classToAdd);
 }
 
-const handleClick = (e) {
-    //colocar a marca (x ou circulo)
+const swapTurns = () => {
+    isCircleTurn = !isCircleTurn
+}
 
+const handleClick = (e) => {
+    //colocar a marca (x ou circulo)
+    const cell = e.target;
+    const classToAdd = isCircleTurn ? "circle" : "x";
+
+    placeMark = (cell, classToAdd);
     //verificar por vitoria
 
     //verificar por empate
 
     //mudar simbolo
+
+    swapTurns();
 }
+
+for (const cell of cellELements) {
+    cell.addEventListener("click", handleClick, {once: true})
+}
+
