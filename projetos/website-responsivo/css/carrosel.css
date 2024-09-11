@@ -1,7 +1,8 @@
 section.slider {
   margin: 0 auto;
+  margin-top: -2rem;
   width: 100%;
-  height: auto;
+  height: 49rem;
   padding: 0 !important;
   /* deixa a rolagem escondida */
   overflow: hidden;
@@ -27,14 +28,16 @@ section.slider {
 }
 
 .slide-box img {
-  width: 100%;
+  width: 90%;
+  margin-left: 380px;
+  margin-top: -1rem;
 }
 
 .nav-manual,
 .nav-auto {
   position: absolute;
   width: 100%;
-  margin-top: 45%;
+  margin-top: 40%;
   display: flex;
   justify-content: center;
 }

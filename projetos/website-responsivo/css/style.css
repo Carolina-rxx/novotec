@@ -130,37 +130,37 @@ header .btn-contato button,
 
 /*estilo do botao  menu mobile*/
 
-header .btn-menu-mob{
+header .btn-menu-mob {
   display: none;
   position: relative;
   z-index: 999999999999999999999999999999999;
 }
 
-header .btn-menu-mob div{
+header .btn-menu-mob div {
   background-color: #fff;
   height: 3px;
   margin: 10px 0;
-  transform: .2s;
+  transform: 0.2s;
 }
 
-header .btn-menu-mob .line-menumob-1{
+header .btn-menu-mob .line-menumob-1 {
   width: 30px;
 }
 
-header .btn-menu-mob .line-menumob-2{
+header .btn-menu-mob .line-menumob-2 {
   width: 20px;
 }
 
-header.rolar .btn-menu-mob div{
+header.rolar .btn-menu-mob div {
   background-color: #000;
 }
 
-header .btn-menu-mob .line-menumob-1.ativo1{
+header .btn-menu-mob .line-menumob-1.ativo1 {
   transform: rotate(45deg) translate(30%);
   background-color: #fff;
 }
 
-header .btn-menu-mob .line-menumob-2.ativo2{
+header .btn-menu-mob .line-menumob-2.ativo2 {
   transform: rotate(-45deg) translate(30%);
   width: 30px;
   background-color: #fff;
@@ -168,7 +168,7 @@ header .btn-menu-mob .line-menumob-2.ativo2{
 
 /*estilo menu mobile*/
 
-header .menu-mobile{
+header .menu-mobile {
   width: 0;
   height: 0;
   background-color: #000;
@@ -182,38 +182,38 @@ header .menu-mobile{
   text-align: center;
 
   overflow: hidden;
-  transition: .2s;
+  transition: 0.2s;
 }
 
-header .menu-mobile nav{
+header .menu-mobile nav {
   width: 100%;
 }
 
-header .menu-mobile nav ul{
+header .menu-mobile nav ul {
   list-style-type: none;
 }
 
-header .menu-mobile nav a{
+header .menu-mobile nav a {
   font-size: 24px;
   text-decoration: none;
   color: #fff;
   padding: 20px 0;
   display: block;
-  transition: .5s;
+  transition: 0.5s;
 }
 
-header .menu-mobile nav a:hover{
+header .menu-mobile nav a:hover {
   background-color: #fff;
   color: #000;
   box-shadow: 0 0 20px #fff;
 }
 
-.menu-mobile.abrir{
+.menu-mobile.abrir {
   width: 100%;
   height: 100vh;
 }
 
-body.no-overflow{
+body.no-overflow {
   overflow: hidden;
 }
 
