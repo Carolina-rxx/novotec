@@ -1,12 +1,5 @@
 *{margin: 0; padding: 0; border: 0; box-sizing: border-box;}
 
-:root{
-    --color-light:#fff;
-    --light-blue:#466395;
-
-    --color-dark:#000;
-    --dark-blue:#02030B;
-}
 
 body{
     transition: background 0.2s linear;
