@@ -93,6 +93,11 @@ header.rolar .logo .logo-preta {
   display: block;
 }
 
+header.rolar .trilho{
+  border: 1px solid #00000085;
+  background-color: #0000007c;
+}
+
 header .menu-desktop nav ul {
   list-style-type: none;
 }

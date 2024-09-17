@@ -8,6 +8,12 @@
     <link rel="stylesheet" href="css/responsive.css" media="screen" />
     <link rel="stylesheet" href="css/carrosel.css" />
 
+  <link rel="stylesheet" href="/css/mode.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+
     <!--bootstrap icons -->
 
     <link
@@ -32,6 +38,11 @@
     <!-- scripts js -->
     <script src="js/menu.js" defer></script>
     <script src="js/btn-menu-mob.js" defer></script>
+
+    
+
+
+  <!--end scripts -->
   </head>
 
   <body>
@@ -56,6 +67,17 @@
         <section class="btn-contato">
           <a href="#"><button>Contato</button></a>
         </section>
+
+        <div class="trilho">
+          
+          <input type="checkbox" class="checkbox" id="cbx">
+          
+          <label class="label" for="cbx">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+          </label>
+        </div>
 
         <div class="btn-menu-mob" id="btn-menu-mob">
           <div class="line-menumob-1"></div>
@@ -142,85 +164,89 @@
     </section>
 
     <!-- carrosel -->
-
-    <section class="slider">
-      <div class="slider-content">
-        <input type="radio" name="btn-radio" id="radio1" />
-        <input type="radio" name="btn-radio" id="radio2" />
-        <input type="radio" name="btn-radio" id="radio3" />
-        <input type="radio" name="btn-radio" id="radio4" />
-        <input type="radio" name="btn-radio" id="radio5" />
-        <input type="radio" name="btn-radio" id="radio6" />
-
-        <div class="slide-box primeiro">
-          <img
-            class="img-desktop"
-            src="images/cadeira.jpg"
-            alt="cadeira"
-          />
-          <img
-            class="img-mobile"
-            src="images/cadeira-mob.webp"
-            alt="aeroporto-mob"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img class="img-desktop" src="images/india.jpg" alt="cadeira" />
-          <img
-            class="img-mobile"
-            src="images/cadeira-mob.jpg"
-            alt="cadeira-mob"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img class="img-desktop" src="images/mapa.jpg" alt="mapa" />
-          <img class="img-mobile" src="images/mapa-mob.jpg" alt="mapa-mob" />
-        </div>
-
-        <div class="slide-box">
-          <img class="img-desktop" src="images/montanha.jpg" alt="montanha" />
-          <img
-            class="img-mobile"
-            src="images/montanha-mob.jpg"
-            alt="montanha-mob"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img class="img-desktop" src="images/paisagem.jpg" alt="paisagem" />
-          <img
-            class="img-mobile"
-            src="images/paisagem-mob.jpg"
-            alt="paisagem-mob"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img class="img-desktop" src="images/praia.jpg" alt="praia" />
-          <img class="img-mobile" src="images/praia-mob.jpg" alt="praia-mob" />
-        </div>
-
-        <div class="nav-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-          <div class="auto-btn5"></div>
-          <div class="auto-btn6"></div>
-        </div>
-
-        <div class="nav-manual">
-          <label for="radio1" class="manual-btn"></label>
-          <label for="radio2" class="manual-btn"></label>
-          <label for="radio3" class="manual-btn"></label>
-          <label for="radio4" class="manual-btn"></label>
-          <label for="radio5" class="manual-btn"></label>
-          <label for="radio6" class="manual-btn"></label>
-        </div>
+    <div class="wrapper">
+      <div class="slide-wrapper" data-slide="wrapper">
+          <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+          <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+          <div class="slide-list" data-slide="list">
+              <div class="slide-item" data-slide="item" data-index="0">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/cadeira.jpg" alt="cadeira" />
+                      <div class="slide-description">
+                          <h3>Beira-mar</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="1">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/embarque.jpg" alt="embarque" />
+                      <div class="slide-description">
+                          <h3>Explore o mundo</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="2">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/hospedagem.jpg" alt="hospedagem" />
+                      <div class="slide-description">
+                          <h3>Se hospede em lugares incriveis</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="3">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/aeroporto.jpg" alt="aeroporto" />
+                      <div class="slide-description">
+                          <h3>Garanta suas Passagens</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="4">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/pessoas.jpg" alt="pessoas" />
+                      <div class="slide-description">
+                          <h3>Explore com amigos</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="5">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/turista.jpg" alt="turista" />
+                      <div class="slide-description">
+                          <h3>Os sorrisos são garantidos</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="6">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/cristo.jpg" alt="cristo" />
+                      <div class="slide-description">
+                          <h3>Lindas paisagens</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="slide-item" data-slide="item" data-index="7">
+                  <div class="slide-content">
+                      <img class="slide-image" src="images/pousada.jpg" alt="posausada" />
+                      <div class="slide-description">
+                          <h3>Serenidade</h3>
+                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="slide-controls" data-slide="controls-wrapper">
+          </div>
       </div>
-    </section>
+  </div>
+  
 
     <section class="contato">
       <div class="interface">
@@ -394,5 +420,15 @@
         </section>
       </div>
     </footer>
+
+    <script src="/js/carrosel.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000
+        })
+    </script>
+    <script src="js/mode.js"></script>
   </body>
 </html>

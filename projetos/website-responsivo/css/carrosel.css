@@ -1,61 +1,138 @@
-section.slider {
-  margin: 0 auto;
-  margin-top: -2rem;
-  width: 100%;
-  height: 49rem;
-  padding: 0 !important;
-  /* deixa a rolagem escondida */
-  overflow: hidden;
-  /* ------------------------- */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.slider-content {
-  width: 400%;
-  height: auto;
-  display: flex;
+html, body {
+    height: 100%;
 }
 
-.slider-content input,
-.img-mobile {
-  display: none;
+.wrapper {
+    display: flex;
+    align-items: center;
 }
 
-.slide-box {
-  width: 25%;
-  height: auto;
-  position: relative;
-  text-align: center;
+.slide-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 60vh;
 }
 
-.slide-box img {
-  width: 90%;
-  margin-left: 380px;
-  margin-top: -1rem;
+.slide-list {
+    display: flex;
 }
 
-.nav-manual,
-.nav-auto {
-  position: absolute;
-  width: 100%;
-  margin-top: 40%;
-  display: flex;
-  justify-content: center;
+.slide-item {
+    cursor: grab;
+    flex-shrink: 0;
+    padding: 0 10px;
+    width: 90vw;
 }
 
-.nav-manual .manual-btn,
-.nav-auto div {
-  border: 1px solid #1c2d4e;
-  padding: 10px;
-  border-radius: 50%;
-  cursor: pointer;
-  transition: 0.2s;
+.slide-content {
+    border-radius: 10px;
+    border: 1px solid #fff;
+    box-shadow: #070707 0px 12px 12px;
+    position: relative;
 }
 
-.nav-manual .manual-btn:not(:last-child),
-.nav-auto div:not(:last-child) {
-  margin-right: 10px;
+.slide-image {
+    border-radius: 10px;
+    width: 100%;
 }
 
-.nav-manual .manual-btn:hover {
-  background-color: #1c2d4e;
+.slide-description {
+    border-radius: 10px;
+    background: linear-gradient(to top, #000, transparent);
+    color: #fff;
+    position: absolute;
+    padding: 30px;
+    bottom: 0;
+    width: 100%;
+}
+
+.slide-description h3 {
+    font-family: 'Koulen', sans-serif;
+    font-size: 48px;
+    position: relative;
+    top: 5px
+}
+
+.slide-description p {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 24px;
+}
+
+.slide-nav-button {
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    font-size: 36px;
+    position: absolute;
+    z-index: 3;
+}
+
+.slide-nav-previous {
+    left: 20px;
+}
+
+.slide-nav-next {
+    right: 20px;
+}
+
+.slide-controls {
+    margin: 30px auto 0;
+}
+
+.slide-control-button {
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.slide-control-button.active {
+    color: #466395;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-description {
+        padding: 10px;
+    }
+    
+    .slide-description h3 {
+        font-size: 24px;
+        top: 0;
+    }
+
+    .slide-description p {
+        display: none;
+    }
+
+    .slide-nav-button {
+        margin-top: -20px;
+        font-size: 28px;
+    }
+    
+    .slide-nav-previous {
+        left: 10px;
+    }
+    
+    .slide-nav-next {
+        right: 10px;
+    }
+
+    .slide-controls {
+        margin: 15px auto 0;
+    }
+
+    .slide-control-button {
+        font-size: 14px;
+    }
 }
