@@ -6,21 +6,30 @@
     <title>Website responsivo</title>
 
     <!-- icon -->
-    <link rel="shortcut icon" href="images/airplane-fill.svg" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="images/airplane-fill.svg"
+      type="image/x-icon"
+    />
     <!-- end icons -->
 
     <!-- stylesheets -->
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" media="screen" />
-    <link rel="stylesheet" href="css/carrosel.css" /> 
-    <link rel="stylesheet" href="/css/mode.css">
+    <link rel="stylesheet" href="css/carrosel.css" />
+    <link rel="stylesheet" href="/css/mode.css" />
     <!-- -----------end css--------------- -->
 
-    
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Koulen&family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
 
     <!--bootstrap icons -->
     <link
@@ -36,13 +45,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"/>
+      rel="stylesheet"
+    />
     <!-- /end fonts-->
 
     <!-- scripts js -->
     <script src="js/menu.js" defer></script>
     <script src="js/btn-menu-mob.js" defer></script>
-  <!--end scripts -->
+    <!--end scripts -->
   </head>
 
   <body>
@@ -57,7 +67,7 @@
           <nav>
             <ul>
               <li><a href="#">Inicio</a></li>
-              <li><a href="#">Destinos</a></li>
+              <li><a href="destinos.html">Destinos</a></li>
               <li><a href="#">Hotéis</a></li>
               <li><a href="#">Passagens</a></li>
             </ul>
@@ -65,13 +75,12 @@
         </section>
 
         <section class="btn-contato">
-          <a href="#"><button>Contato</button></a>
+          <a href="#contato-link"><button>Contato</button></a>
         </section>
 
         <div class="trilho">
-          
-          <input type="checkbox" class="checkbox" id="cbx">
-          
+          <input type="checkbox" class="checkbox" id="cbx" />
+
           <label class="label" for="cbx">
             <i class="fas fa-moon"></i>
             <i class="fas fa-sun"></i>
@@ -166,87 +175,107 @@
     <!-- carrosel -->
     <div class="wrapper">
       <div class="slide-wrapper" data-slide="wrapper">
-          <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
-          <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
-          <div class="slide-list" data-slide="list">
-              <div class="slide-item" data-slide="item" data-index="0">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/cadeira.jpg" alt="cadeira" />
-                      <div class="slide-description">
-                          <h3>Beira-mar</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
+        <button
+          class="slide-nav-button slide-nav-previous fas fa-chevron-left"
+          data-slide="nav-previous-button"
+        ></button>
+        <button
+          class="slide-nav-button slide-nav-next fas fa-chevron-right"
+          data-slide="nav-next-button"
+        ></button>
+        <div class="slide-list" data-slide="list">
+          <div class="slide-item" data-slide="item" data-index="0">
+            <div class="slide-content">
+              <img class="slide-image" src="images/cadeira.jpg" alt="cadeira" />
+              <div class="slide-description">
+                <h3>Beira-mar</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
               </div>
-              <div class="slide-item" data-slide="item" data-index="1">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/embarque.jpg" alt="embarque" />
-                      <div class="slide-description">
-                          <h3>Explore o mundo</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="slide-item" data-slide="item" data-index="2">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/hospedagem.jpg" alt="hospedagem" />
-                      <div class="slide-description">
-                          <h3>Se hospede em lugares incriveis</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="slide-item" data-slide="item" data-index="3">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/aeroporto.jpg" alt="aeroporto" />
-                      <div class="slide-description">
-                          <h3>Garanta suas Passagens</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="slide-item" data-slide="item" data-index="4">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/pessoas.jpg" alt="pessoas" />
-                      <div class="slide-description">
-                          <h3>Explore com amigos</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="slide-item" data-slide="item" data-index="5">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/turista.jpg" alt="turista" />
-                      <div class="slide-description">
-                          <h3>Os sorrisos são garantidos</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="slide-item" data-slide="item" data-index="6">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/cristo.jpg" alt="cristo" />
-                      <div class="slide-description">
-                          <h3>Lindas paisagens</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="slide-item" data-slide="item" data-index="7">
-                  <div class="slide-content">
-                      <img class="slide-image" src="images/pousada.jpg" alt="posausada" />
-                      <div class="slide-description">
-                          <h3>Serenidade</h3>
-                          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
-                      </div>
-                  </div>
-              </div>
+            </div>
           </div>
-          <div class="slide-controls" data-slide="controls-wrapper">
+          <div class="slide-item" data-slide="item" data-index="1">
+            <div class="slide-content">
+              <img
+                class="slide-image"
+                src="images/embarque.jpg"
+                alt="embarque"
+              />
+              <div class="slide-description">
+                <h3>Explore o mundo</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
           </div>
+          <div class="slide-item" data-slide="item" data-index="2">
+            <div class="slide-content">
+              <img
+                class="slide-image"
+                src="images/hospedagem.jpg"
+                alt="hospedagem"
+              />
+              <div class="slide-description">
+                <h3>Se hospede em lugares incriveis</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item" data-slide="item" data-index="3">
+            <div class="slide-content">
+              <img
+                class="slide-image"
+                src="images/aeroporto.jpg"
+                alt="aeroporto"
+              />
+              <div class="slide-description">
+                <h3>Garanta suas Passagens</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item" data-slide="item" data-index="4">
+            <div class="slide-content">
+              <img class="slide-image" src="images/pessoas.jpg" alt="pessoas" />
+              <div class="slide-description">
+                <h3>Explore com amigos</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item" data-slide="item" data-index="5">
+            <div class="slide-content">
+              <img class="slide-image" src="images/turista.jpg" alt="turista" />
+              <div class="slide-description">
+                <h3>Os sorrisos são garantidos</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item" data-slide="item" data-index="6">
+            <div class="slide-content">
+              <img class="slide-image" src="images/cristo.jpg" alt="cristo" />
+              <div class="slide-description">
+                <h3>Lindas paisagens</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+          <div class="slide-item" data-slide="item" data-index="7">
+            <div class="slide-content">
+              <img
+                class="slide-image"
+                src="images/pousada.jpg"
+                alt="posausada"
+              />
+              <div class="slide-description">
+                <h3>Serenidade</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide-controls" data-slide="controls-wrapper"></div>
       </div>
-  </div>
-  
+    </div>
 
     <section class="contato">
       <div class="interface">
@@ -356,7 +385,7 @@
       </div>
     </section>
 
-    <section class="contato">
+    <section class="contato" id="contato-link">
       <div class="interface">
         <article class="txt-contato">
           <h3>Fale agora com a <span> nossa equipe</span></h3>
@@ -404,8 +433,8 @@
           <a href="#"
             ><button><i class="bi bi-facebook"></i></button
           ></a>
-          <a href="#"
-            ><button><i class="bi bi-tiktok"></i></button
+          <a href="https://github.com/Carolina-rxx?tab=repositories"
+            ><button><i class="bi bi-github"></i></button
           ></a>
         </section>
 
@@ -423,11 +452,11 @@
 
     <script src="/js/carrosel.js"></script>
     <script>
-        initSlider({
-            autoPlay: true,
-            startAtIndex: 0,
-            timeInterval: 2000
-        })
+      initSlider({
+        autoPlay: true,
+        startAtIndex: 0,
+        timeInterval: 2000,
+      });
     </script>
     <script src="js/mode.js"></script>
   </body>

@@ -1,12 +1,12 @@
+alert("Seja bem-vindo!");
+let navBar = document.querySelector("#header");
 
-let navBar = document.querySelector('#header')
+document.addEventListener("scroll", () => {
+  let scrollTop = window.scrollY;
 
-document.addEventListener('scroll', () => {
-    let scrollTop = window.scrollY
-     
-    if(scrollTop > 0) {
-        navBar.classList.add('rolar')
-    } else{
-        navBar.classList.remove('rolar')
-    }
-})
+  if (scrollTop > 0) {
+    navBar.classList.add("rolar");
+  } else {
+    navBar.classList.remove("rolar");
+  }
+});
