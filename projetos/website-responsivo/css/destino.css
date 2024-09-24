@@ -6,7 +6,7 @@
 }
 
 body {
-  height: 100vh;
+  height: 80vh;
   background: linear-gradient(
     90deg,
     rgba(65, 184, 131, 1) 0%,
@@ -20,10 +20,8 @@ body {
 h1{
   margin-top: 150px;
   margin-bottom: 80px;
-
+  font-size: 70px;
 }
-
-
 
 .container {
   position: absolute;
@@ -114,3 +112,33 @@ h1{
 .completed {
   text-decoration: line-through;
 }
+
+
+footer{
+  width: 100%;
+  height: auto;
+  margin-top: -80px;
+  position: absolute;
+  text-align: end;
+  justify-content: end;
+  align-items: end;
+  bottom: 0;
+}
+
+footer .calculadora{
+  margin-right: 80px;
+  text-align: end;
+  margin-top: -50px;
+}
+
+footer .calculadora a{
+  text-decoration: none;
+  color:  #000;
+}
+
+footer .calculator i{
+ font-size: 40px;
+}
+
+
+

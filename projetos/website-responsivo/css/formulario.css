@@ -187,29 +187,3 @@
     }
 }
 
-footer{
-    width: 100%;
-    height: auto;
-    margin-top: -80px;
-    position: absolute;
-    text-align: end;
-    justify-content: end;
-    align-items: end;
-}
-
-footer .calculadora{
-    margin-right: 80px;
-    text-align: end;
-}
-
-footer .calculadora a{
-    text-decoration: none;
-    color:  #000;
-}
-
-footer .calculator i{
-   font-size: 40px;
-}
-
-
-
