@@ -1,0 +1,115 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+    /* CSS HEX */
+    --prussian-blue: #003049ff;
+    --fire-engine-red: #d62828ff;
+    --orange-wheel: #f77f00ff;
+    --xanthous: #fcbf49ff;
+
+}
+
+body{
+    height: 100vh;
+}
+/* estilização do header */
+header{
+    background: var(--prussian-blue);
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 5rem;
+
+    transition: 0.5s;
+    z-index: 99999999999;
+}
+
+#img-logo{
+    height: 20px;
+    transform: rotate(308deg);
+    margin-top: -30px;
+    margin-left: 9px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    margin-left: 5rem;
+    color: white;
+}
+
+#gostosuras{
+    font-family: Merienda;
+    font-size: 30px;
+    color: white;
+}
+
+nav{
+    display: flex;
+    margin-left: 900px;
+    align-items: center;
+}
+
+a,ul{
+    text-decoration: none;
+    display: flex;
+}
+
+li{
+    margin-left: 2rem;
+    color: white;
+    list-style: none;
+    font-family: Lora;
+    align-items: baseline;
+    transition: 0.5s;
+}
+
+li:hover{
+    text-shadow: 0px 0px 20px rgb(255, 153, 0);
+    transform: scale(1.1);
+}
+/* ----- end header------- */
+
+/* intro */
+
+#intro{
+    display: flex;
+    background: #f77f00ff;
+    height: 900px;
+    font-family: Merienda;
+}
+
+#main-image{
+    margin-left: 5rem;
+    margin-top: 6rem;
+    width: 85%;
+}
+
+#intro-txt{
+    text-align: center;
+    margin-top: 15rem;
+}
+
+#f1{
+    margin-top: 17rem;
+    margin-left: 5rem;
+    margin-bottom: 1rem;
+    font-family: Pacifico;
+    width: 700px;
+    font-size: 60px;
+    text-align: center;
+    position: absolute;
+}
+
+#intro-txt2{
+    margin-top: 34rem;
+    width: 1400px;
+    margin-right: 4rem;
+    text-align: center;
+}
+
+#f2{
+    margin-left: -1rem;
+    margin-bottom: 3rem;
+}
+/* -------end intro------- */
