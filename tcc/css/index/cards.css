@@ -1,0 +1,131 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+    /* CSS HEX */
+    --prussian-blue: #003049ff;
+    --fire-engine-red: #d62828ff;
+    --orange-wheel: #f77f00ff;
+    --xanthous: #fcbf49ff;
+}
+
+/*  parte dos cards */
+
+section.cards{
+    display: flex;
+    width: 80px;
+    align-items: center;
+    margin-left: 300px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container{
+    display: flex;
+    width: 300px;
+    align-items: center;
+    margin-left: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.container:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.cor-leg{
+    color: #000;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    font-family: Merienda;
+    margin-left: 60px;
+}
+
+.cards img{
+    width: 90px;
+    height: 80px;
+}
+
+/* card da salada */
+#image-part-salad{
+    background: rgba(106, 153, 78, 1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#img-salada{
+    height: 84px;
+    width: 90px;
+}
+
+#leg-part-salada{
+    background: rgba(56, 102, 65, 1);
+    width: 200px;
+    height: 84px;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    text-align: center;
+} 
+
+/* card do bolo */
+#image-part-bolo{
+    background: rgba(255, 155, 133, 1);
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#leg-part-bolo{
+    background: rgba(188, 71, 73, 1);
+    width: 250px;
+    height: 84px;
+    border-radius: 8px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* card bebidas */
+
+#image-part-bebidas{
+    background: rgba(255, 136, 0, 1);
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#leg-part-bebidas{
+    background: rgba(255, 170, 0, 1);
+    width: 200px;
+    height: 84px;
+    border-radius: 8px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+/* card fitness */
+
+#image-part-fitness{
+    background: rgba(114, 239, 221, 1);
+    border-radius: 8px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#leg-part-fitness{
+    background: rgba(100, 223, 223, 1);
+    width: 500px;
+    height: 84px;
+    margin-left: -0.5px;
+    border-radius: 8px;
+    text-align: center;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}

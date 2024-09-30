@@ -20,8 +20,7 @@ header{
     width: 100%;
     height: 5rem;
 
-    transition: 0.5s;
-    z-index: 99999999999;
+    z-index: 999999999999999;
 }
 
 #img-logo{
@@ -46,7 +45,7 @@ header{
 
 nav{
     display: flex;
-    margin-left: 900px;
+    margin-left: 1000px;
     align-items: center;
 }
 

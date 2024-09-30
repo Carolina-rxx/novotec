@@ -9,11 +9,15 @@
 
     <!-- css stylesheet -->
      <!-- menu -->
-     <link rel="stylesheet" href="/css/menu.css">   
+     <link rel="stylesheet" href="/css/index/menu.css">   
      <!-- cards -->
-      <link rel="stylesheet" href="/css/cards.css">
-
-
+      <link rel="stylesheet" href="/css/index/cards.css">
+     <!-- flip  -->
+     <link rel="stylesheet" href="/css/index/flip.css">
+     <!-- texto animado -->
+     <link rel="stylesheet" href="/css/index/txt-animado.css">
+     <!-- footer -->
+     <link rel="stylesheet" href="/css/index/footer.css">
      <!-- ------end css---------- -->
 
     <!-- google fonts -->
@@ -42,7 +46,6 @@
                 <a href=""><li id="botao2">Massas</li></a>
                 <a href=""><li id="botao3">Doces e Sobremesas</li></a>
                 <a href=""><li id="botao4">Receitas veganas</li></a>
-                <a href=""><li id="botao5">Receitas fit</li></a>
             </ul>
         </nav>
     </header>
@@ -70,34 +73,44 @@
         <!-- cards -->
          <!-- saladas -->
         <section class="cards">
-            <div class="container">
-                <div class="image-part">
-                    <img src="/images/saladas/salada.png" alt="salad">
+            <a href=""><div class="container">
+                <div class="image-part" id="image-part-salad">
+                    <img src="/images/saladas/salada.png" alt="salad" id="img-salada">
                 </div>
-                <div id="leg-part">
+                <div id="leg-part-salada">
                     <a href="#"><p class="cor-leg">Saladas</p></a>
                 </div>
-            </div>
+            </div></a>
     
             <!-- bolos -->
-            <div class="container">
-                <div class="image-part">
+            <a href=""><div class="container">
+                <div class="image-part" id="image-part-bolo">
                     <img src="/images/bolos/panna-cotta.png" alt="bolo">
                 </div>
-                <div id="leg-part">
+                <div id="leg-part-bolo">
                     <a href="#"><p class="cor-leg">Bolos</p></a>
                 </div>
-            </div>
+            </div></a>
       
             <!-- bebidas -->
-            <div class="container">
-                <div class="image-part">
+            <a href=""><div class="container">
+                <div class="image-part" id="image-part-bebidas">
                     <img src="/images/bebidas/bebida-de-coquetel.png" alt="bebidas">
                 </div>
-                <div id="leg-part">
+                <div id="leg-part-bebidas">
                     <a href="#"><p class="cor-leg">Bebidas</p></a>
                 </div>
-            </div>
+            </div></a>
+
+            <!-- fitness -->
+            <a href=""><div class="container">
+                <div class="image-part" id="image-part-fitness">
+                    <img src="/images/fitness/ginastica.png" alt="fitness">
+                </div>
+                <div id="leg-part-fitness">
+                    <a href="#"><p class="cor-leg">fitness</p></a>
+                </div>
+            </div></a>
         </section>   
 
         <!-- cards flip -->
@@ -150,8 +163,50 @@
         <div class="texto-animado">
             Gostosuras <span></span>
         </div>  
-
     </main>
+
+    <footer>
+        <div id="hrs">
+            <hr id="hr-footer1">
+            <hr id="hr-footer2">
+        </div>
+
+        <div id="intro_footer">
+            <img src="/images/index images/gastronomia.png" alt="gastronomia" id="gastronomia-footer">
+        </div>
+
+        <div id="entre-em-contato">
+            <p id="frase-footer">Entre em contato com a desenvolvedora!</p>
+        </div>
+
+        <div id="decoration"></div>
+            <div id="logo-footer">
+            <div id="img-logo-footer">
+                <img src="/icons/chapeu-de-chef.png" alt="img-logo" id="img-logo-footer">
+            </div>
+            <a href="home.html"><span id="gostosuras">Gostosuras</span></a>
+        </div>
+
+        <div id="contato">
+            <div id="conteudo-footer">
+                <div id="whats">
+                    <a href=""><img src="/icons/telefone.png" alt="telefone" class="medida-footer"></a>
+                </div>
+
+                <div id="insta">
+                    <a href="https://www.instagram.com/carol_vpx/"><img src="/icons/instagram.png" alt="instagram" class="medida-footer"></a>
+                </div>
+            
+                <div id="github">
+                    <a href="https://github.com/Carolina-rxx/novotec"><img src="/icons/github.png" alt="github" class="medida-footer"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="dev">
+            <p>Desenvolvido por: Carolina Reis</p>
+        </div>    
+    </footer>
 
   </body>
 </html>

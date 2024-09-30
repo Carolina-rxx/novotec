@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+    /* CSS HEX */
+    --prussian-blue: #003049ff;
+    --fire-engine-red: #d62828ff;
+    --orange-wheel: #f77f00ff;
+    --xanthous: #fcbf49ff;
+}
+
+footer{
+    height: 30vh;
+}
+
+#hrs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+#hr-footer1{
+    width: 700px;
+}
+
+#hr-footer2{
+    width: 700px;
+}
+
+#intro_footer{
+    margin-left: 900px;
+}
+
+#gastronomia-footer{
+    width: 100px;
+}
+
+#img-logo-footer{
+    width: 20px;
+    transform: rotate(338deg);
+    margin-top: -1.5px;
+    margin-left: 36px;
+}
+
+#logo-footer{
+    display: flex;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    color: white;
+}
+
+
+
