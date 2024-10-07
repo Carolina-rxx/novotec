@@ -1,101 +1,124 @@
-*{margin: 0; padding: 0; box-sizing: border-box;}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-:root{
-    /* CSS HEX */
-    --prussian-blue: #003049ff;
-    --fire-engine-red: #d62828ff;
-    --orange-wheel: #f77f00ff;
-    --xanthous: #fcbf49ff;
+:root {
+  /* CSS HEX */
+  --prussian-blue: #003049ff;
+  --fire-engine-red: #d62828ff;
+  --orange-wheel: #f77f00ff;
+  --xanthous: #fcbf49ff;
 }
 /* parte com o globo */
-#hrs{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+#hrs {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-hr{
-    width: 700px;
+hr {
+  width: 700px;
 }
 
-#globo-footer{
-    margin-left: 450px;
-    width: 100px;
+#globo-footer {
+  margin-left: 450px;
+  width: 100px;
 }
 
-footer{
-    height: 20vh;
-    background: rgba(0, 47, 73, 0.952);
+footer {
+  height: 20vh;
+  background: rgba(0, 47, 73, 0.952);
 }
 
 /* frase entre em contato */
 
-#entre-em-contato{
-    background: #003049ff;
-    margin-top: 20px;
+#entre-em-contato {
+  background: #003049ff;
+  margin-top: 20px;
 }
 
 #entre-em-contato p {
-    text-align: center;
-    color: #fff;
-    font-family: Lora;
-    font-size: 20px;
+  text-align: center;
+  color: #fff;
+  font-family: Lora;
+  font-size: 20px;
 }
 
 /* logo footer */
 
-.logo-footer{
-    display: flex;
-    margin-top: 2rem;
-    margin-left: 5rem;
-    color: white;
+.logo-footer {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 5rem;
+  color: white;
 }
 
-.logo-footer img{
-    height: 20px;
-    transform: rotate(308deg);
-    margin-top: -5px;
-    margin-left: 9px;
+.logo-footer img {
+  height: 20px;
+  transform: rotate(308deg);
+  margin-top: -5px;
+  margin-left: 9px;
 }
 
-.logo-footer a span{
-    font-family: Merienda;
-    font-size: 30px;
-    color: white;
+.logo-footer a span {
+  font-family: Merienda;
+  font-size: 30px;
+  color: white;
 }
 
 /* icones entre em contato */
 
-.contato{
-    display: flex;
-    margin-left: 105rem;
+.contato {
+  display: flex;
+  margin-left: 105rem;
+  margin-top: -1.5rem;
+  margin-bottom: 10px;
 }
 
-.contato-footer{
-    display: flex;
+.contato-footer {
+  display: flex;
 }
 
-.contato i{
-    display: flex;
-    margin-left: 10px;
-    font-size: 30px;
-    color: #000000;
+.contato i {
+  display: flex;
+  margin-left: 10px;
+  font-size: 30px;
+  color: #000000;
+}
+
+.whatsapp i:hover {
+  color: green;
+}
+
+.instagram i:hover {
+  color: var(--xanthous);
+}
+
+.github i:hover {
+  color: #ffffffe3;
+}
+
+/* comunicação */
+.comunicacao a p {
+  margin-left: 104rem;
+  font-family: Montserrat;
+  font-size: 15px;
+  color: #000;
+  transition: 0.5s;
+}
+
+.comunicacao a p:hover {
+  border-bottom: 1px solid var(--orange-wheel);
+  color: #fff;
 }
 
 /* informações das desenvolvedoras */
-.dev{
-    display: flex;
-    margin-left: 48rem;
-    font-family: Montserrat;
-    font-size: 15px;
+.dev {
+  display: flex;
+  text-align: center;
+  margin-left: 48rem;
+  font-family: Montserrat;
+  font-size: 15px;
 }
-
-
-
-
-
-
-
-
-
-
