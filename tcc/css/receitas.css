@@ -22,6 +22,11 @@ section.intro-img img {
   height: 55rem;
 }
 
+#banner-medida-alterada {
+  width: 100%;
+  height: 57rem;
+}
+
 .titulo {
   text-align: center;
   margin-top: -35rem;
