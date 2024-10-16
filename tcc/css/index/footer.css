@@ -72,7 +72,7 @@ footer {
 
 .contato {
   display: flex;
-  margin-left: 105rem;
+  margin-left: 103rem;
   margin-top: -1.5rem;
   margin-bottom: 10px;
 }
@@ -99,10 +99,13 @@ footer {
 .github i:hover {
   color: #ffffffe3;
 }
+.email i:hover {
+  color: rgb(218, 54, 25);
+}
 
 /* comunicação */
 .comunicacao a p {
-  margin-left: 104rem;
+  margin-left: 104.5rem;
   font-family: Montserrat;
   font-size: 15px;
   color: #000;
@@ -112,6 +115,32 @@ footer {
 .comunicacao a p:hover {
   border-bottom: 1px solid var(--orange-wheel);
   color: #fff;
+}
+
+.comunicacao .anuncio a i {
+  display: flex;
+  position: absolute;
+  text-align: center;
+  margin-left: 103rem;
+  margin-top: 2px;
+  color: #000;
+}
+
+.comunicacao .error a i {
+  display: flex;
+  margin-top: -1rem;
+  margin-left: 6rem;
+  font-size: 15px;
+  align-items: center;
+  color: #000;
+  transition: 0.5s;
+}
+
+.error a p {
+  margin-top: -1rem;
+  margin-left: 5px;
+  font-family: Montserrat;
+  color: #000;
 }
 
 /* informações das desenvolvedoras */
