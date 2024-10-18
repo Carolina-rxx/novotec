@@ -1,0 +1,73 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+:root{
+    /* CSS HEX */
+    --prussian-blue: #003049ff;
+    --fire-engine-red: #d62828ff;
+    --orange-wheel: #f77f00ff;
+    --xanthous: #fcbf49ff;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(245, 245, 220, 0.459);
+}
+
+header{
+    position: static;
+}
+
+section.interface-como-fazer{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.img-como-fazer{
+    border-radius: 8px;
+}
+
+.titulo-como-fazer{
+    width: auto;
+    height: auto;
+    font-family: pacifico;
+    font-size: 20px;
+    text-align: center;
+}
+
+.info-como-fazer{
+    display: flex;
+    position: absolute;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    width: 63rem;
+    font-size: 20px;
+    margin-left: 455px;
+    margin-top: 1rem;
+    font-family: Lora;
+    background-color: rgba(0, 47, 73, 0.966);
+    color: #fff;
+    border-radius: 5px;
+}
+
+.info{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+#pedaco{
+    height: 50px;
+}
+
+#clock, #chama{
+    height: 40px;
+}
+
+#chama{
+    height: 35px;
+}
+
+
+
+
