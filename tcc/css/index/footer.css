@@ -86,6 +86,7 @@ footer {
   margin-left: 10px;
   font-size: 30px;
   color: #000000;
+  transition: 0.3s;
 }
 
 .whatsapp i:hover {
