@@ -8,7 +8,7 @@
   /* CSS HEX */
   --prussian-blue: #003049ff;
   --fire-engine-red: #d62828ff;
-  --orange-wheel: #f77f00ff;
+  --orange-wheel:  ;
   --xanthous: #fcbf49ff;
 }
 
@@ -151,8 +151,9 @@ section.interface-como-fazer {
   transform: none;
 }
 
-.li.concluido{
+.concluido{
   text-decoration: line-through;
+  color: gray;
 }
 
 input[type="checkbox"] {
@@ -165,3 +166,4 @@ input[type="checkbox"] {
 input:checked[type="checkbox"] {
   accent-color: var(--xanthous);
 }
+

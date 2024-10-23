@@ -1,9 +1,13 @@
-const feito = document.querySelector('.li')
-const feito2 = document.getElementsByName('label')
+const checkboxes = document.querySelectorAll('.cbx')
+// seleciona todos os elementos com a classe .cbx
 
-feito2 = addEventListener('click', ()=>{
-    feito1.classList.toggle('concluido')
-})
-feito.addEventListener('click', ()=>{
-    feito.classList.toggle('concluido')
+checkboxes.forEach((checkbox, index) =>{
+    checkbox.addEventListener('change', function(){
+        const text = document.querySelectorAll('.texto')[index]
+        if (this.checked){
+            text.classList.add('concluido')
+        } else {
+            text.classList.remove('concluido')
+        }
+    })
 })
