@@ -151,6 +151,10 @@ section.interface-como-fazer {
   transform: none;
 }
 
+.li.concluido{
+  text-decoration: line-through;
+}
+
 input[type="checkbox"] {
   cursor: pointer;
   width: 18px;
@@ -159,5 +163,5 @@ input[type="checkbox"] {
 }
 
 input:checked[type="checkbox"] {
-  background-color: #f77f00ff;;
+  accent-color: var(--xanthous);
 }
