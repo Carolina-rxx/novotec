@@ -167,3 +167,19 @@ input:checked[type="checkbox"] {
   accent-color: var(--xanthous);
 }
 
+.divisao-preparo{
+  margin-left: 455px;
+  margin-top: 1rem;
+  width: 54%;
+}
+
+.detalhe{
+  width: 10px;
+  height: 30px;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-left: 455px;
+  background-color: var(--xanthous);
+}
+
+
