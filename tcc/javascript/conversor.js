@@ -8,39 +8,38 @@ function convert() {
             result = {
                 tablespoons: value * 16,
                 ml: value * 240,
-                grams: value * 120, // Exemplo, ajuste conforme necessário
-                kilos: value * 0.12  // Exemplo, ajuste conforme necessário
+                grams: value * 120, 
+                kilos: value * 0.12 
             };
             break;
         case 'tablespoon':
             result = {
                 cups: value / 16,
                 ml: value * 15,
-                grams: value * 8, // Exemplo, ajuste conforme necessário
-                kilos: value * 0.008 // Exemplo, ajuste conforme necessário
+                grams: value * 8, 
+                kilos: value * 0.008 
             };
             break;
         case 'ml':
             result = {
                 cups: value / 240,
                 tablespoons: value / 15,
-                grams: value * 1, // Exemplo, ajuste conforme necessário
-                kilos: value / 1000 // Exemplo, ajuste conforme necessário
+                grams: value * 1, 
+                kilos: value / 1000 
             };
             break;
         case 'g':
             result = {
-                cups: value / 120, // Exemplo, ajuste conforme necessário
-                tablespoons: value / 8, // Exemplo, ajuste conforme necessário
-                ml: value / 1, // Exemplo, ajuste conforme necessário
+                cups: value / 120, 
+                tablespoons: value / 8, 
+                ml: value / 1, 
                 kilos: value / 1000
             };
             break;
         case 'kg':
             result = {
-                cups: value * 8.33, // Exemplo, ajuste conforme necessário
-                tablespoons: value * 66.67, // Exemplo, ajuste conforme necessário
-                ml: value * 1000 // Exemplo, ajuste conforme necessário
+                cups: value * 8.33, 
+                tablespoons: value * 66.67, 
             };
             break;
         default:

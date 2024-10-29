@@ -49,3 +49,9 @@ button:hover {
     background-color: var(--orange-wheel);
     color: #000;
 }
+
+#result{
+    font-family: montserrat;
+    font-size: 20px;
+    text-align: center;
+}
