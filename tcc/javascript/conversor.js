@@ -28,7 +28,7 @@ function convert() {
                 kilos: value / 1000 // Exemplo, ajuste conforme necessário
             };
             break;
-        case 'grams':
+        case 'g':
             result = {
                 cups: value / 120, // Exemplo, ajuste conforme necessário
                 tablespoons: value / 8, // Exemplo, ajuste conforme necessário
@@ -36,7 +36,7 @@ function convert() {
                 kilos: value / 1000
             };
             break;
-        case 'kilos':
+        case 'kg':
             result = {
                 cups: value * 8.33, // Exemplo, ajuste conforme necessário
                 tablespoons: value * 66.67, // Exemplo, ajuste conforme necessário
