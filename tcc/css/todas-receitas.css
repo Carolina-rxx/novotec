@@ -95,3 +95,52 @@ header {
   cursor: pointer;
   background-color: rgba(247, 128, 0, 0.219);
 }
+
+.select {
+  padding: 0.03rem;
+  margin-top: 2rem;
+}
+
+.categoria-select {
+  display: flex;
+  gap: 0.5rem;
+  font-family: DM Serif Text;
+}
+
+.categora-select label {
+  font-size: 0.75rem;
+  letter-spacing: 0.0225rem;
+}
+
+.select-button {
+  margin-top: 0.5rem;
+  display: flex;
+  padding: 0.75rem;
+  align-items: center;
+  justify-content: space-between;
+
+  border: 0;
+  border-radius: 0.8rem;
+  background-color: white;
+  color: #000000b9;
+  font-family: Lora;
+}
+
+.select-value {
+  color: #AFAABB6;
+  font-size: 0.875rem;
+  letter-spacing: 0.02625rem;
+}
+
+.chevrons svg {
+  height: 1rem;
+  width: 1rem;
+}
+
+.chevrons {
+  color: #afabb6;
+}
+
+.chevrons .fa-solid.fa-chevron-up {
+  display: none;
+}
